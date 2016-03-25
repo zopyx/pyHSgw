@@ -25,13 +25,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "1 - EG Küche Panel SCHALTEN", 
+                            "description": "Panel Küche (EG)", 
                             "name": "Panel Küche"
                         }
                     ], 
-                    "services-description": "1 - EG Küche Panel SCHALTEN", 
-                    "description": "1 - EG Küche Panel SCHALTEN", 
-                    "name": "1 - EG Küche Panel SCHALTEN"
+                    "services-description": "Panel Küche (EG)", 
+                    "description": "Panel Küche (EG)", 
+                    "name": "Panel Küche (EG)"
                 }, 
                 {
                     "services": [
@@ -43,13 +43,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "7 - EG Flur Deckenspots SCHALTEN", 
+                            "description": "Flur EG (EG)", 
                             "name": "Flur EG"
                         }
                     ], 
-                    "services-description": "7 - EG Flur Deckenspots SCHALTEN", 
-                    "description": "7 - EG Flur Deckenspots SCHALTEN", 
-                    "name": "7 - EG Flur Deckenspots SCHALTEN"
+                    "services-description": "Flur EG (EG)", 
+                    "description": "Flur EG (EG)", 
+                    "name": "Flur EG (EG)"
                 }, 
                 {
                     "services": [
@@ -61,13 +61,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "9 - EG WC SCHALTEN", 
+                            "description": "WC (EG)", 
                             "name": "WC"
                         }
                     ], 
-                    "services-description": "9 - EG WC SCHALTEN", 
-                    "description": "9 - EG WC SCHALTEN", 
-                    "name": "9 - EG WC SCHALTEN"
+                    "services-description": "WC (EG)", 
+                    "description": "WC (EG)", 
+                    "name": "WC (EG)"
                 }, 
                 {
                     "services": [
@@ -79,13 +79,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "10 - EG Treppe zum HG SCHALTEN", 
+                            "description": "Treppe EG (EG)", 
                             "name": "Treppe EG"
                         }
                     ], 
-                    "services-description": "10 - EG Treppe zum HG SCHALTEN", 
-                    "description": "10 - EG Treppe zum HG SCHALTEN", 
-                    "name": "10 - EG Treppe zum HG SCHALTEN"
+                    "services-description": "Treppe EG (EG)", 
+                    "description": "Treppe EG (EG)", 
+                    "name": "Treppe EG (EG)"
                 }, 
                 {
                     "services": [
@@ -97,13 +97,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "4b - EG Wohnzimmer Deckenspots SCHALTEN", 
+                            "description": "Spots Wohnzimmer (EG)", 
                             "name": "Spots Wohnzimmer"
                         }
                     ], 
-                    "services-description": "4b - EG Wohnzimmer Deckenspots SCHALTEN", 
-                    "description": "4b - EG Wohnzimmer Deckenspots SCHALTEN", 
-                    "name": "4b - EG Wohnzimmer Deckenspots SCHALTEN"
+                    "services-description": "Spots Wohnzimmer (EG)", 
+                    "description": "Spots Wohnzimmer (EG)", 
+                    "name": "Spots Wohnzimmer (EG)"
                 }, 
                 {
                     "services": [
@@ -115,13 +115,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "3 - EG - Esszimmer SCHALTEN", 
+                            "description": "Esszimmer (EG)", 
                             "name": "Esszimmer"
                         }
                     ], 
-                    "services-description": "3 - EG - Esszimmer SCHALTEN", 
-                    "description": "3 - EG - Esszimmer SCHALTEN", 
-                    "name": "3 - EG - Esszimmer SCHALTEN"
+                    "services-description": "Esszimmer (EG)", 
+                    "description": "Esszimmer (EG)", 
+                    "name": "Esszimmer (EG)"
                 }, 
                 {
                     "services": [
@@ -133,13 +133,13 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "3 - EG - Esszimmer HELLIGKEIT", 
+                            "description": "Esszimmer (EG)", 
                             "name": "Esszimmer"
                         }
                     ], 
-                    "services-description": "3 - EG - Esszimmer HELLIGKEIT", 
-                    "description": "3 - EG - Esszimmer HELLIGKEIT", 
-                    "name": "3 - EG - Esszimmer HELLIGKEIT"
+                    "services-description": "Esszimmer (EG)", 
+                    "description": "Esszimmer (EG)", 
+                    "name": "Esszimmer (EG)"
                 }, 
                 {
                     "services": [
@@ -151,19 +151,19 @@
                                 ]
                             }, 
                             "type": "Lightbulb", 
-                            "description": "2 - EG Küche Downspots Theke DIMMEN", 
+                            "description": "Spots Küche (EG)", 
                             "name": "Spots Küche"
                         }
                     ], 
-                    "services-description": "2 - EG Küche Downspots Theke DIMMEN", 
-                    "description": "2 - EG Küche Downspots Theke DIMMEN", 
-                    "name": "2 - EG Küche Downspots Theke DIMMEN"
+                    "services-description": "Spots Küche (EG)", 
+                    "description": "Spots Küche (EG)", 
+                    "name": "Spots Küche (EG)"
                 }, 
                 {
                     "services": [
                         {
                             "type": "TemperatureSensor", 
-                            "description": "Aussemtemperatur gemittelt", 
+                            "description": "Aussentemperatur (-)", 
                             "CurrentTemperature": {
                                 "Set": "", 
                                 "Listen": [
@@ -173,9 +173,9 @@
                             "name": "Aussentemperatur"
                         }
                     ], 
-                    "services-description": "Aussemtemperatur gemittelt", 
-                    "description": "Aussemtemperatur gemittelt", 
-                    "name": "Aussemtemperatur gemittelt"
+                    "services-description": "Aussentemperatur (-)", 
+                    "description": "Aussentemperatur (-)", 
+                    "name": "Aussentemperatur (-)"
                 }
             ], 
             "knxd_port": 6720, 

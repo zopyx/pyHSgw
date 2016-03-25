@@ -23,14 +23,16 @@ with open(sys.argv[-1], 'rb') as fp:
         if row['Export'] != '1':
             continue
 
+        display_name = u'{} ({})'.format(row['HomeKit Name'], row['Geschoss'])
+
         if row['HomeKit Type'] == 'Lightbulb':
             d = {
-                "description": row['Beschreibung'],
-                "name": row['Beschreibung'],
+                "description": display_name,
+                "name": display_name,
                 "services": [
                         {
                                 "type": row['HomeKit Type'],
-                                "description": row['Beschreibung'],
+                                "description": display_name,
                                 "name": row['HomeKit Name'],
                                 "On": {
                                         "Set": row['GA Schalten'],
@@ -40,16 +42,16 @@ with open(sys.argv[-1], 'rb') as fp:
                                  }
                          }
                 ],
-                "services-description": row['Beschreibung']
+                "services-description": display_name
             }
         elif row['HomeKit Type'] == 'Temperature Sensor':
             d = {
-                "description": row['Beschreibung'],
-                "name": row['Beschreibung'],
+                "description": display_name, 
+                "name": display_name,
                 "services": [
                         {
                                 "type": "TemperatureSensor",
-                                "description": row['Beschreibung'],
+                                "description": display_name,
                                 "name": row['HomeKit Name'],
                                 "CurrentTemperature": {
                                         "Set": "",
@@ -59,7 +61,7 @@ with open(sys.argv[-1], 'rb') as fp:
                                  }
                          }
                 ],
-                "services-description": row['Beschreibung']
+                "services-description": display_name
             }
         else:
             continue
