@@ -48,7 +48,7 @@ with open(sys.argv[-1], 'rb') as fp:
                 "name": row['Beschreibung'],
                 "services": [
                         {
-                                "type": row['HomeKit Type'],
+                                "type": "TemperatureSensor",
                                 "description": row['Beschreibung'],
                                 "name": row['HomeKit Name'],
                                 "CurrentTemperature": {

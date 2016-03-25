@@ -162,7 +162,7 @@
                 {
                     "services": [
                         {
-                            "type": "Temperature Sensor", 
+                            "type": "TemperatureSensor", 
                             "description": "Aussemtemperatur gemittelt", 
                             "CurrentTemperature": {
                                 "Set": "", 
