@@ -176,6 +176,24 @@
                     "services-description": "Aussentemperatur (-)", 
                     "description": "Aussentemperatur (-)", 
                     "name": "Aussentemperatur (-)"
+                }, 
+                {
+                    "services": [
+                        {
+                            "type": "LightSensor", 
+                            "description": "Helligkeit (-)", 
+                            "CurrentTemperature": {
+                                "Set": "", 
+                                "Listen": [
+                                    "3/4/0"
+                                ]
+                            }, 
+                            "name": "Helligkeit"
+                        }
+                    ], 
+                    "services-description": "Helligkeit (-)", 
+                    "description": "Helligkeit (-)", 
+                    "name": "Helligkeit (-)"
                 }
             ], 
             "knxd_port": 6720, 

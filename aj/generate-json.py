@@ -63,6 +63,25 @@ with open(sys.argv[-1], 'rb') as fp:
                 ],
                 "services-description": display_name
             }
+        elif row['HomeKit Type'] == 'LightSensor':
+            d = {
+                "description": display_name, 
+                "name": display_name,
+                "services": [
+                        {
+                                "type": "LightSensor",
+                                "description": display_name,
+                                "name": row['HomeKit Name'],
+                                "CurrentTemperature": {
+                                        "Set": "",
+                                        "Listen": [
+                                                row['GA Schalten']
+                                         ]
+                                 }
+                         }
+                ],
+                "services-description": display_name
+            }
         else:
             continue
 
