@@ -162,128 +162,20 @@
                 {
                     "services": [
                         {
-                            "On": {
-                                "Set": "0/6/102", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
-                            "type": "", 
-                            "description": "EG - Küche RTR BM", 
-                            "name": "Heizung Küche Modus"
-                        }
-                    ], 
-                    "services-description": "EG - Küche RTR BM", 
-                    "description": "EG - Küche RTR BM", 
-                    "name": "EG - Küche RTR BM"
-                }, 
-                {
-                    "services": [
-                        {
-                            "On": {
-                                "Set": "0/6/103", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
-                            "type": "", 
-                            "description": "EG - Küche RTR STATUS", 
-                            "name": "Heizung Küche Status"
-                        }
-                    ], 
-                    "services-description": "EG - Küche RTR STATUS", 
-                    "description": "EG - Küche RTR STATUS", 
-                    "name": "EG - Küche RTR STATUS"
-                }, 
-                {
-                    "services": [
-                        {
-                            "On": {
-                                "Set": "0/6/104", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
-                            "type": "", 
-                            "description": "EG - Küche RTR RM HEIZEN", 
-                            "name": "Heizung Küche Heizt"
-                        }
-                    ], 
-                    "services-description": "EG - Küche RTR RM HEIZEN", 
-                    "description": "EG - Küche RTR RM HEIZEN", 
-                    "name": "EG - Küche RTR RM HEIZEN"
-                }, 
-                {
-                    "services": [
-                        {
-                            "On": {
-                                "Set": "3/1/60", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
                             "type": "Temperature Sensor", 
                             "description": "Aussemtemperatur gemittelt", 
+                            "CurrentTemperature": {
+                                "Set": "", 
+                                "Listen": [
+                                    "3/1/60"
+                                ]
+                            }, 
                             "name": "Aussentemperatur"
                         }
                     ], 
                     "services-description": "Aussemtemperatur gemittelt", 
                     "description": "Aussemtemperatur gemittelt", 
                     "name": "Aussemtemperatur gemittelt"
-                }, 
-                {
-                    "services": [
-                        {
-                            "On": {
-                                "Set": "3/4/0", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
-                            "type": "LightSensor", 
-                            "description": "EG - Wetterstation Helligkeit", 
-                            "name": "Helligkeit"
-                        }
-                    ], 
-                    "services-description": "EG - Wetterstation Helligkeit", 
-                    "description": "EG - Wetterstation Helligkeit", 
-                    "name": "EG - Wetterstation Helligkeit"
-                }, 
-                {
-                    "services": [
-                        {
-                            "On": {
-                                "Set": "3/6/135", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
-                            "type": "ContactSensor", 
-                            "description": "EG Türkontakt Essen Balkon", 
-                            "name": "Balkontür"
-                        }
-                    ], 
-                    "services-description": "EG Türkontakt Essen Balkon", 
-                    "description": "EG Türkontakt Essen Balkon", 
-                    "name": "EG Türkontakt Essen Balkon"
-                }, 
-                {
-                    "services": [
-                        {
-                            "On": {
-                                "Set": "3/6/130", 
-                                "Listen": [
-                                    ""
-                                ]
-                            }, 
-                            "type": "LockMechanism", 
-                            "description": "EG Riegelschaltkontakt Eingang", 
-                            "name": "Haustür"
-                        }
-                    ], 
-                    "services-description": "EG Riegelschaltkontakt Eingang", 
-                    "description": "EG Riegelschaltkontakt Eingang", 
-                    "name": "EG Riegelschaltkontakt Eingang"
                 }
             ], 
             "knxd_port": 6720, 
